@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+.uphead{
+    display: block;
+ 
+}
+.uphead h2{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 0.5rem;
+   
+}
+.udhead-logo{
+    width: 7rem;
+    margin: 0 auto;
+    margin-top: 0.7rem;
+}
+
+.allhr{
+border: 1px solid black;
+margin-top: 10px;
+}
+
+
+.youtube-v{
+    margin-top: 20px;
+    width: 45%;
+    float: right;
+}
+.web-l{
+    margin-top: 20px;
+    width: 50%;
+    float: left;
+}
+.web-l::after{
+
+    clear: both;
+    margin-top: 20px;
+}
+
+    
