@@ -55,6 +55,7 @@ margin-top: 10px;
     margin: 30px 5px;
     font-size: large;
     padding: 30px;
+    width: 800px;
 }
 .hi h3{
     font-size: 40px;
@@ -62,6 +63,7 @@ margin-top: 10px;
     text-shadow: 2px 2px 3px rgb(36, 69, 4);
 }
 table, tr, td, th {
+    background-color: green;
     border: 1px solid rgb(0, 0, 0);
     border-collapse: collapse;
     text-align: center;
@@ -73,5 +75,26 @@ table, tr, td, th {
 
 
 
+/* Hover part */
+.uphead h2:hover{
+    text-shadow: 4px 4px 4px blue;
+    transition: 0.2s;
+    text-decoration:underline;
+}
+.udhead-logo img:hover{
+    box-shadow: 6px 6px 6px green;
+}
+.upbody .youtube-v:hover{
+    box-shadow: 12px 12px 12px rgb(226, 1, 1);
+    border-radius: 15px;
+}
 
-    
+.upbody .web-l:hover{
+    box-shadow: 12px 12px 12px rgb(226, 1, 1);
+    border-radius: 15px;
+}
+
+   tr,td:hover{
+        background-color: blueviolet;
+        cursor: pointer;
+    }
