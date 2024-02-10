@@ -43,5 +43,14 @@ margin-top: 10px;
     clear: both;
     margin-top: 20px;
 }
+.para p{
+    font-size: 1.5rem;
+    text-align: justify;
+    font-family: sans-serif;
+    padding: 5px;
+    margin: 10px 5px;
+}
+
+
 
     
